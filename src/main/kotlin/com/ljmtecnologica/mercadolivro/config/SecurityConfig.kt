@@ -1,6 +1,6 @@
 package com.ljmtecnologica.mercadolivro.config
 
-import com.ljmtecnologica.mercadolivro.enums.RolesEnum
+import com.ljmtecnologica.mercadolivro.model.enums.RolesEnum
 import com.ljmtecnologica.mercadolivro.security.*
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

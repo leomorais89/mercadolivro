@@ -1,7 +1,7 @@
-package com.ljmtecnologica.mercadolivro.listeners
+package com.ljmtecnologica.mercadolivro.event.listeners
 
-import com.ljmtecnologica.mercadolivro.enums.BookStatusEnum
-import com.ljmtecnologica.mercadolivro.events.PurchaseEvent
+import com.ljmtecnologica.mercadolivro.model.enums.BookStatusEnum
+import com.ljmtecnologica.mercadolivro.event.PurchaseEvent
 import com.ljmtecnologica.mercadolivro.service.BookService
 import com.ljmtecnologica.mercadolivro.service.PurchaseService
 import org.springframework.context.event.EventListener

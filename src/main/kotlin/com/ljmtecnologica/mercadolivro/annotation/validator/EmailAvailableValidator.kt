@@ -1,6 +1,6 @@
-package com.ljmtecnologica.mercadolivro.validator
+package com.ljmtecnologica.mercadolivro.annotation.validator
 
-import com.ljmtecnologica.mercadolivro.annotations.EmailAvailable
+import com.ljmtecnologica.mercadolivro.annotation.EmailAvailable
 import com.ljmtecnologica.mercadolivro.service.CustomerService
 import javax.validation.ConstraintValidator
 import javax.validation.ConstraintValidatorContext

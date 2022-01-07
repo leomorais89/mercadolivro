@@ -1,4 +1,4 @@
-package com.ljmtecnologica.mercadolivro.mapper
+package com.ljmtecnologica.mercadolivro.model.builder
 
 import com.ljmtecnologica.mercadolivro.controller.request.PostPurchase
 import com.ljmtecnologica.mercadolivro.model.Purchase
@@ -7,12 +7,12 @@ import com.ljmtecnologica.mercadolivro.service.CustomerService
 import org.springframework.stereotype.Component
 
 @Component
-class PurchaseMapper(
+class PurchaseBuilder(
     private val customerService: CustomerService,
     private val bookService: BookService
 ) {
 
-    fun toPurchase(postPurchase: PostPurchase): Purchase{
+    fun builder(postPurchase: PostPurchase): Purchase{
         val customer = this.customerService.findById(postPurchase.customerId)
         val books = this.bookService.findAllByIds(postPurchase.booksIds)
 

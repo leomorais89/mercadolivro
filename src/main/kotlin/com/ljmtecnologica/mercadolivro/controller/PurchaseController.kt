@@ -1,6 +1,6 @@
 package com.ljmtecnologica.mercadolivro.controller
 
-import com.ljmtecnologica.mercadolivro.mapper.PurchaseMapper
+import com.ljmtecnologica.mercadolivro.model.builder.PurchaseBuilder
 import com.ljmtecnologica.mercadolivro.controller.request.PostPurchase
 import com.ljmtecnologica.mercadolivro.model.Purchase
 import com.ljmtecnologica.mercadolivro.security.annotation.UserCanOnlyAccessTheirOwnResource
@@ -16,7 +16,7 @@ import javax.validation.Valid
 @RequestMapping("/purchases")
 class PurchaseController(
     private val purchaseService: PurchaseService,
-    private val purchaseMapper: PurchaseMapper
+    private val purchaseBuilder: PurchaseBuilder
 ) {
 
     @GetMapping("/{id}")
@@ -29,7 +29,7 @@ class PurchaseController(
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     fun insert(@RequestBody @Valid postPurchase: PostPurchase): Purchase{
-        return this.purchaseService.insert(this.purchaseMapper.toPurchase(postPurchase))
+        return this.purchaseService.insert(this.purchaseBuilder.builder(postPurchase))
     }
 
 }

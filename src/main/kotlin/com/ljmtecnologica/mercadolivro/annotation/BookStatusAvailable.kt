@@ -1,6 +1,6 @@
-package com.ljmtecnologica.mercadolivro.annotations
+package com.ljmtecnologica.mercadolivro.annotation
 
-import com.ljmtecnologica.mercadolivro.validator.BookStatusAvailableValidator
+import com.ljmtecnologica.mercadolivro.annotation.validator.BookStatusAvailableValidator
 import javax.validation.Constraint
 import javax.validation.Payload
 import kotlin.reflect.KClass

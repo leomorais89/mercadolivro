@@ -4,8 +4,8 @@ import com.ljmtecnologica.mercadolivro.controller.request.PostBook
 import com.ljmtecnologica.mercadolivro.controller.request.PostCustomer
 import com.ljmtecnologica.mercadolivro.controller.request.PutBook
 import com.ljmtecnologica.mercadolivro.controller.request.PutCustomer
-import com.ljmtecnologica.mercadolivro.enums.BookStatusEnum
-import com.ljmtecnologica.mercadolivro.enums.CustomerStatusEnum
+import com.ljmtecnologica.mercadolivro.model.enums.BookStatusEnum
+import com.ljmtecnologica.mercadolivro.model.enums.CustomerStatusEnum
 import com.ljmtecnologica.mercadolivro.model.Book
 import com.ljmtecnologica.mercadolivro.model.Customer
 

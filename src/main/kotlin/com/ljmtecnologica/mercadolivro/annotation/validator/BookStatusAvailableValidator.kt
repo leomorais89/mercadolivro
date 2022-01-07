@@ -1,7 +1,7 @@
-package com.ljmtecnologica.mercadolivro.validator
+package com.ljmtecnologica.mercadolivro.annotation.validator
 
-import com.ljmtecnologica.mercadolivro.annotations.BookStatusAvailable
-import com.ljmtecnologica.mercadolivro.enums.BookStatusEnum
+import com.ljmtecnologica.mercadolivro.annotation.BookStatusAvailable
+import com.ljmtecnologica.mercadolivro.model.enums.BookStatusEnum
 import com.ljmtecnologica.mercadolivro.service.BookService
 import javax.validation.ConstraintValidator
 import javax.validation.ConstraintValidatorContext

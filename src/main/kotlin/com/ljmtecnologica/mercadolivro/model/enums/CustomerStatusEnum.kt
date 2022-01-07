@@ -1,4 +1,4 @@
-package com.ljmtecnologica.mercadolivro.enums
+package com.ljmtecnologica.mercadolivro.model.enums
 
 enum class CustomerStatusEnum {
 

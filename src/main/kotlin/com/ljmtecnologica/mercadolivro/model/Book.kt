@@ -1,6 +1,6 @@
 package com.ljmtecnologica.mercadolivro.model
 
-import com.ljmtecnologica.mercadolivro.enums.BookStatusEnum
+import com.ljmtecnologica.mercadolivro.model.enums.BookStatusEnum
 import com.ljmtecnologica.mercadolivro.enums.ErrorEnum
 import com.ljmtecnologica.mercadolivro.exception.BadRequestException
 import java.math.BigDecimal

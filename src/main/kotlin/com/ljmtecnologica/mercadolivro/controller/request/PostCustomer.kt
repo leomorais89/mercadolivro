@@ -1,9 +1,8 @@
 package com.ljmtecnologica.mercadolivro.controller.request
 
-import com.ljmtecnologica.mercadolivro.annotations.EmailAvailable
+import com.ljmtecnologica.mercadolivro.annotation.EmailAvailable
 import javax.validation.constraints.Email
 import javax.validation.constraints.NotBlank
-import javax.validation.constraints.NotNull
 
 data class PostCustomer(
 

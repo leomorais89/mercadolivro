@@ -1,6 +1,6 @@
 package com.ljmtecnologica.mercadolivro.controller.request
 
-import com.ljmtecnologica.mercadolivro.annotations.BookStatusAvailable
+import com.ljmtecnologica.mercadolivro.annotation.BookStatusAvailable
 import javax.validation.constraints.NotEmpty
 import javax.validation.constraints.NotNull
 import javax.validation.constraints.Positive

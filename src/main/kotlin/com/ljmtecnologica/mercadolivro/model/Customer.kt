@@ -1,8 +1,8 @@
 package com.ljmtecnologica.mercadolivro.model
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
-import com.ljmtecnologica.mercadolivro.enums.CustomerStatusEnum
-import com.ljmtecnologica.mercadolivro.enums.RolesEnum
+import com.ljmtecnologica.mercadolivro.model.enums.CustomerStatusEnum
+import com.ljmtecnologica.mercadolivro.model.enums.RolesEnum
 import javax.persistence.*
 
 @Entity(name = "customer")

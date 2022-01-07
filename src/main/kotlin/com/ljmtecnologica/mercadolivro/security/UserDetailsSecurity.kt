@@ -1,6 +1,6 @@
 package com.ljmtecnologica.mercadolivro.security
 
-import com.ljmtecnologica.mercadolivro.enums.CustomerStatusEnum
+import com.ljmtecnologica.mercadolivro.model.enums.CustomerStatusEnum
 import com.ljmtecnologica.mercadolivro.model.Customer
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.SimpleGrantedAuthority

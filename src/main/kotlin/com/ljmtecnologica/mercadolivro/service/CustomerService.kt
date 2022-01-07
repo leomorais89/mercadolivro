@@ -1,8 +1,8 @@
 package com.ljmtecnologica.mercadolivro.service
 
-import com.ljmtecnologica.mercadolivro.enums.CustomerStatusEnum
+import com.ljmtecnologica.mercadolivro.model.enums.CustomerStatusEnum
 import com.ljmtecnologica.mercadolivro.enums.ErrorEnum
-import com.ljmtecnologica.mercadolivro.enums.RolesEnum
+import com.ljmtecnologica.mercadolivro.model.enums.RolesEnum
 import com.ljmtecnologica.mercadolivro.exception.NotFoundException
 import com.ljmtecnologica.mercadolivro.model.Customer
 import com.ljmtecnologica.mercadolivro.repository.CustomerRepository

@@ -1,6 +1,6 @@
 package com.ljmtecnologica.mercadolivro.service
 
-import com.ljmtecnologica.mercadolivro.events.PurchaseEvent
+import com.ljmtecnologica.mercadolivro.event.PurchaseEvent
 import com.ljmtecnologica.mercadolivro.model.Purchase
 import com.ljmtecnologica.mercadolivro.repository.PurchaseRepository
 import org.springframework.context.ApplicationEventPublisher
