@@ -26,25 +26,27 @@ class SecurityConfig(
     private val custonAuthenticationEntryPoint: CustonAuthenticationEntryPoint
 ): WebSecurityConfigurerAdapter() {
 
-    private val PUBLIC_BOOKS_MATCHER = arrayOf(
-        "/books/**"
-    )
+    companion object {
+        private val PUBLIC_BOOKS_MATCHER = arrayOf(
+            "/books/**"
+        )
 
-    private val ADMIN_BOOKS_MATCHER = arrayOf(
-        "/books/**"
-    )
+        private val ADMIN_BOOKS_MATCHER = arrayOf(
+            "/books/**"
+        )
 
-    private val ADMIN_CUSTOMER_MATCHAR = arrayOf(
-        "/customers"
-    )
+        private val ADMIN_CUSTOMER_MATCHAR = arrayOf(
+            "/customers"
+        )
 
-    private val PUBLIC_CUSTOMER_MATCHER = arrayOf(
-        "/customers"
-    )
+        private val PUBLIC_CUSTOMER_MATCHER = arrayOf(
+            "/customers"
+        )
 
-    private val ADMIN_MATCHER = arrayOf(
-        "/admins/**"
-    )
+        private val ADMIN_MATCHER = arrayOf(
+            "/admins/**"
+        )
+    }
 
     override fun configure(http: HttpSecurity) {
         http.cors().and().csrf().disable()
